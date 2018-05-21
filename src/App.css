@@ -1,0 +1,66 @@
+.App {
+  text-align: center;
+}
+.App-header {
+  background-color:darkcyan;
+  height: 50px;
+  padding: 20px;
+  color: white;
+}
+.App-footer {
+  background-color:darkcyan;
+  height: 40px;
+  padding: 20px;
+  color: white;
+}
+.App-title {
+  font-size: 1.5em;
+}
+.body-container{
+  width:100%;
+  background-color:cornsilk;
+  height: 500px;
+  text-align: center;
+  background-image: url('./13.jpg');
+  background-repeat: no-repeat;
+  background-position:bottom;
+  background-size: cover;
+  
+}
+.click{
+  padding: 20px 92px;
+  margin-top: 62px;
+  background-color: white;
+  border: 2px solid black;  
+  font-size: 18px;
+  color: black;
+}
+.hide-loader{
+  display: none;
+}
+.show-loader{
+  display: block;
+  position: absolute;
+  left: 50%;
+  top: 55%;
+  z-index: 1;
+  margin: -75px 0 0 -75px;
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid #3498db;
+  width: 50px;
+  height: 50px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+
+}
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+
+#status{
+  color: white;
+}
+
